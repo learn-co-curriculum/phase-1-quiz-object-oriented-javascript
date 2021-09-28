@@ -4,15 +4,15 @@
     "title": "Object-Oriented JavaScript Quiz",
     "html_url": "https://learning.flatironschool.com/courses/3297/quizzes/12285",
     "mobile_url": "https://learning.flatironschool.com/courses/3297/quizzes/12285?force_user=1&persist_headless=1",
-    "description": "",
+    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-1-quiz-object-oriented-javascript\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-1-quiz-object-oriented-javascript/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide.\nNote any answers that were marked incorrect, so you can study the relevant\nmaterial and try this quiz again.</p>\n\n<p>If you don't know the answer to a question, please do not guess. Instead, select\n\"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
     "quiz_type": "assignment",
     "time_limit": null,
     "timer_autosubmit_disabled": false,
-    "shuffle_answers": false,
+    "shuffle_answers": true,
     "show_correct_answers": true,
     "scoring_policy": "keep_highest",
-    "allowed_attempts": 1,
-    "one_question_at_a_time": false,
+    "allowed_attempts": 3,
+    "one_question_at_a_time": true,
     "question_count": 14,
     "points_possible": 14.0,
     "cant_go_back": false,
@@ -29,7 +29,7 @@
       "asset_string": "quizzes:quiz_12285"
     },
     "lock_explanation": "This quiz is currently locked.",
-    "hide_results": null,
+    "hide_results": "until_after_last_attempt",
     "show_correct_answers_at": null,
     "hide_correct_answers_at": null,
     "all_dates": [
@@ -70,8 +70,8 @@
     "one_time_results": false,
     "only_visible_to_overrides": false,
     "assignment_group_id": 6357,
-    "show_correct_answers_last_attempt": false,
-    "version_number": 1,
+    "show_correct_answers_last_attempt": true,
+    "version_number": 2,
     "has_access_code": false,
     "post_to_sis": false,
     "migration_id": null,
@@ -88,28 +88,28 @@
       "position": null,
       "question_name": "OOJS: Classes",
       "question_type": "true_false_question",
-      "question_text": "<div>\n<div><span>Object Orientation grants us the ability to write code that structurally establishes the relationships between data and functions.</span></div>\n</div>",
+      "question_text": "<p>Object Orientation grants us the ability to write code that structurally\nestablishes the relationships between data and functions.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "<p>&nbsp;<strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/object-orientation-in-javascript?module_item_id=143621\" target=\"_blank\">Object Orientation in JavaScript</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/object-orientation-in-javascript?module_item_id=143621\">Object Orientation in JavaScript</a></li></ul><p></p>",
       "answers": [
         {
           "comments": "",
           "comments_html": "",
           "text": "True",
           "weight": 100,
-          "id": 100
+          "id": 6360
         },
         {
           "comments": "",
           "comments_html": "",
           "text": "False",
           "weight": 0,
-          "id": 2257
+          "id": 913
         }
       ],
       "variables": null,
@@ -127,45 +127,45 @@
       "position": null,
       "question_name": "OOJS: Classes",
       "question_type": "multiple_choice_question",
-      "question_text": "<div><span>How would I make a new instance of the following class?</span></div>\n<pre><span>class Dog {</span><br><span>  constructor(name, age) {</span><br><span>    this.name = name;</span><br><span>    this.age = age;</span><br><span>  }</span><br><span>}</span></pre>\n<p>&nbsp;</p>",
+      "question_text": "<p>How would I make a new instance of the following class?</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">class</span> <span class=\"nx\">Dog</span> <span class=\"p\">{</span>\n  <span class=\"kd\">constructor</span><span class=\"p\">(</span><span class=\"nx\">name</span><span class=\"p\">,</span> <span class=\"nx\">age</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n    <span class=\"k\">this</span><span class=\"p\">.</span><span class=\"nx\">name</span> <span class=\"o\">=</span> <span class=\"nx\">name</span><span class=\"p\">;</span>\n    <span class=\"k\">this</span><span class=\"p\">.</span><span class=\"nx\">age</span> <span class=\"o\">=</span> <span class=\"nx\">age</span><span class=\"p\">;</span>\n  <span class=\"p\">}</span>\n<span class=\"p\">}</span>\n</code></pre></div>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "<p>&nbsp;<strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/object-orientation-in-javascript?module_item_id=143621\" target=\"_blank\">Object Orientation in JavaScript</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/object-orientation-in-javascript?module_item_id=143621\">Object Orientation in JavaScript</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 8179,
+          "id": 4347,
           "text": "",
-          "html": "<pre><code>let spinach = new Dog('Spinach', 4);</code></pre>",
+          "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">let</span> <span class=\"nx\">spinach</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nx\">Dog</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">Spinach</span><span class=\"dl\">\"</span><span class=\"p\">,</span> <span class=\"mi\">4</span><span class=\"p\">);</span>\n</code></pre></div>",
           "comments": "",
-          "comments_html": "",
+          "comments_html": "<p>Nailed it! Using the <code>new</code> keyword will call the <code>constructor</code> function and\nreturn a new <code>Dog</code> object.</p>",
           "weight": 100.0
         },
         {
-          "id": 9731,
+          "id": 6684,
           "text": "",
-          "html": "<div>\n<pre><span>let ['spinach', 4] = new Dog</span></pre>\n</div>",
+          "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">let</span> <span class=\"nx\">spinach</span> <span class=\"o\">=</span> <span class=\"nx\">Dog</span><span class=\"p\">.</span><span class=\"k\">new</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">Spinach</span><span class=\"dl\">\"</span><span class=\"p\">,</span> <span class=\"mi\">4</span><span class=\"p\">);</span>\n</code></pre></div>",
           "comments": "",
-          "comments_html": "",
+          "comments_html": "<p>Not quite. We must use the <code>new</code> keyword, rather than calling <code>.new</code> as a\nmethod.</p>",
           "weight": 0.0
         },
         {
-          "id": 8424,
+          "id": 2865,
           "text": "",
-          "html": "<div>\n<pre><span>let new Dog = 'spinach'</span></pre>\n</div>",
+          "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">let</span> <span class=\"nx\">spinach</span> <span class=\"o\">=</span> <span class=\"nx\">Dog</span><span class=\"p\">.</span><span class=\"kd\">constructor</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">Spinach</span><span class=\"dl\">\"</span><span class=\"p\">,</span> <span class=\"mi\">4</span><span class=\"p\">);</span>\n</code></pre></div>",
           "comments": "",
-          "comments_html": "",
+          "comments_html": "<p>Not quite. We must use the <code>new</code> keyword, rather than calling <code>.constructor</code>\nas a method.</p>",
           "weight": 0.0
         },
         {
-          "id": 1860,
-          "text": "I don't know.",
-          "html": "",
+          "id": 215,
+          "text": "",
+          "html": "<p>I don't know.</p>",
           "comments": "",
-          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
           "weight": 0.0
         }
       ],
@@ -184,28 +184,28 @@
       "position": null,
       "question_name": "OOJS: Classes",
       "question_type": "true_false_question",
-      "question_text": "<div>\n<div><span>Every time we initialize a new instance of the Person class, we create a unique object.</span></div>\n</div>",
+      "question_text": "<p>Given the following code:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">class</span> <span class=\"nx\">Person</span> <span class=\"p\">{</span>\n  <span class=\"kd\">constructor</span><span class=\"p\">(</span><span class=\"nx\">name</span><span class=\"p\">,</span> <span class=\"nx\">age</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n    <span class=\"k\">this</span><span class=\"p\">.</span><span class=\"nx\">name</span> <span class=\"o\">=</span> <span class=\"nx\">name</span><span class=\"p\">;</span>\n    <span class=\"k\">this</span><span class=\"p\">.</span><span class=\"nx\">age</span> <span class=\"o\">=</span> <span class=\"nx\">age</span><span class=\"p\">;</span>\n  <span class=\"p\">}</span>\n<span class=\"p\">}</span>\n</code></pre></div>\n<p>Every time we initialize a new instance of the <code>Person</code> class, we create a\nunique object.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "<p>&nbsp;<strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/object-orientation-in-javascript?module_item_id=143621\" target=\"_blank\">Object Orientation in JavaScript</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/object-orientation-in-javascript?module_item_id=143621\">Object Orientation in JavaScript</a></li></ul><p></p>",
       "answers": [
         {
           "comments": "",
           "comments_html": "",
           "text": "True",
           "weight": 100,
-          "id": 2814
+          "id": 2686
         },
         {
           "comments": "",
           "comments_html": "",
           "text": "False",
           "weight": 0,
-          "id": 596
+          "id": 8302
         }
       ],
       "variables": null,
@@ -223,42 +223,46 @@
       "position": null,
       "question_name": "OOJS: Classes",
       "question_type": "multiple_answers_question",
-      "question_text": "<div>\n<div><span>Why would I put the get keyword in front of the area method in the following class? (select all that apply)</span></div>\n<pre><span>class Square {</span><br><span>  constructor(sideLength) {</span><br><span>    this.sideLength = sideLength;</span><br><span>  }</span><br><br><span>  get area() {</span><br><span>    return this.sideLength * this.sideLength;</span><br><span>  }</span><br><span>}</span></pre>\n<p>&nbsp;</p>\n</div>",
+      "question_text": "<p>Why would I put the <code>get</code> keyword in front of the <code>area</code> method in the following\nclass? (select all that apply)</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">class</span> <span class=\"nx\">Square</span> <span class=\"p\">{</span>\n  <span class=\"kd\">constructor</span><span class=\"p\">(</span><span class=\"nx\">sideLength</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n    <span class=\"k\">this</span><span class=\"p\">.</span><span class=\"nx\">sideLength</span> <span class=\"o\">=</span> <span class=\"nx\">sideLength</span><span class=\"p\">;</span>\n  <span class=\"p\">}</span>\n\n  <span class=\"kd\">get</span> <span class=\"nx\">area</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n    <span class=\"k\">return</span> <span class=\"k\">this</span><span class=\"p\">.</span><span class=\"nx\">sideLength</span> <span class=\"o\">*</span> <span class=\"k\">this</span><span class=\"p\">.</span><span class=\"nx\">sideLength</span><span class=\"p\">;</span>\n  <span class=\"p\">}</span>\n<span class=\"p\">}</span>\n</code></pre></div>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "<p>&nbsp;<strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/method-types?module_item_id=143625\" target=\"_blank\">Method Types</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/method-types?module_item_id=143625\">Method Types</a></li></ul><p></p>",
       "answers": [
         {
-          "id": "7023",
-          "text": "The area calculation isn't run until it's accessed.",
+          "id": 7621,
+          "text": "",
           "comments": "",
           "comments_html": "",
-          "weight": 100.0
+          "weight": 100.0,
+          "html": "<p>The method to compute the area doesn't run until it's needed, saving a\npotentially computationally expensive operation from being performed.</p>"
         },
         {
-          "id": "9019",
-          "text": "If it was included in the constructor, the process would be ran everytime I made a new instance of Square.",
+          "id": 4642,
+          "text": "",
           "comments": "",
           "comments_html": "",
-          "weight": 100.0
+          "weight": 100.0,
+          "html": "<p>It allows us to treat <code>area</code> like a property rather than a method.</p>"
         },
         {
-          "id": "6781",
-          "text": "If the data from the properties ever change, the get method is able to use the updated value.",
+          "id": 2335,
+          "text": "",
           "comments": "",
           "comments_html": "",
-          "weight": 100.0
+          "weight": 100.0,
+          "html": "<p>If the <code>sideLength</code> ever changes, the <code>area</code> will be re-calculated.</p>"
         },
         {
-          "id": "5750",
-          "text": "I don't know.",
+          "id": 9590,
+          "text": "",
           "comments": "",
-          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
-          "weight": 0.0
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
+          "weight": 0.0,
+          "html": "<p>I don't know.</p>"
         }
       ],
       "variables": null,
@@ -276,45 +280,45 @@
       "position": null,
       "question_name": "OOJS: Constructor",
       "question_type": "multiple_choice_question",
-      "question_text": "<div>\n<div>\n<div><span>How could I find the age of the following Dog instance?</span></div>\n</div>\n<pre><span>class Dog {</span><br><span>  constructor(name, age) {</span><br><span>    this.name = name;</span><br><span>    this.age = age;</span><br><span>  }<br><br></span>  sayWoof() {<br>    console.log(`Woof, my name is ${this.name}`);<br><span>  }<br>}<br><br><code>let spinach = new Dog('Spinach', 4)</code>;<br></span></pre>\n</div>\n<p>&nbsp;</p>",
+      "question_text": "<p>Which of the following code snippets would allow me to access Spinach's age?</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">class</span> <span class=\"nx\">Dog</span> <span class=\"p\">{</span>\n  <span class=\"kd\">constructor</span><span class=\"p\">(</span><span class=\"nx\">name</span><span class=\"p\">,</span> <span class=\"nx\">age</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n    <span class=\"k\">this</span><span class=\"p\">.</span><span class=\"nx\">name</span> <span class=\"o\">=</span> <span class=\"nx\">name</span><span class=\"p\">;</span>\n    <span class=\"k\">this</span><span class=\"p\">.</span><span class=\"nx\">age</span> <span class=\"o\">=</span> <span class=\"nx\">age</span><span class=\"p\">;</span>\n  <span class=\"p\">}</span>\n  <span class=\"nx\">sayWoof</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n    <span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"s2\">`Woof, my name is </span><span class=\"p\">${</span><span class=\"k\">this</span><span class=\"p\">.</span><span class=\"nx\">name</span><span class=\"p\">}</span><span class=\"s2\">`</span><span class=\"p\">);</span>\n  <span class=\"p\">}</span>\n<span class=\"p\">}</span>\n<span class=\"kd\">let</span> <span class=\"nx\">spinach</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nx\">Dog</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">Spinach</span><span class=\"dl\">\"</span><span class=\"p\">,</span> <span class=\"mi\">4</span><span class=\"p\">);</span>\n</code></pre></div>\n<p>&nbsp;</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/classes-and-instances?module_item_id=143622\" target=\"_blank\">Classes and Instances</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/classes-and-instances?module_item_id=143622\">Classes and Instances</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 7884,
+          "id": 4108,
           "text": "",
-          "html": "<pre>spinach.age</pre>",
+          "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">spinach</span><span class=\"p\">.</span><span class=\"nx\">age</span><span class=\"p\">;</span>\n</code></pre></div>",
           "comments": "",
           "comments_html": "",
           "weight": 100.0
         },
         {
-          "id": 7300,
+          "id": 3780,
           "text": "",
-          "html": "<pre>spinach.age()</pre>",
+          "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">spinach</span><span class=\"p\">.</span><span class=\"nx\">age</span><span class=\"p\">();</span>\n</code></pre></div>",
           "comments": "",
           "comments_html": "",
           "weight": 0.0
         },
         {
-          "id": 1828,
+          "id": 8147,
           "text": "",
-          "html": "<pre>Dog.age(spinach)</pre>",
+          "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">Dog</span><span class=\"p\">.</span><span class=\"nx\">age</span><span class=\"p\">(</span><span class=\"nx\">spinach</span><span class=\"p\">);</span>\n</code></pre></div>",
           "comments": "",
           "comments_html": "",
           "weight": 0.0
         },
         {
-          "id": 5190,
-          "text": "I don't know.",
-          "html": "",
+          "id": 3800,
+          "text": "",
+          "html": "<p>I don't know.</p>",
           "comments": "",
-          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
           "weight": 0.0
         }
       ],
@@ -333,28 +337,28 @@
       "position": null,
       "question_name": "OOJS: Constructor",
       "question_type": "true_false_question",
-      "question_text": "<div>\n<div><span>In a child class constructor, <code>super</code> is used as a method and calls the parent class constructor before continuing with the child.</span></div>\n</div>",
+      "question_text": "<p>In a child class constructor, <code>super</code> is used as a method and calls the parent\nclass constructor before continuing with the child.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/classes-and-instances?module_item_id=143622\" target=\"_blank\">Classes and Instances</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/classes-and-instances?module_item_id=143622\">Classes and Instances</a></li></ul><p></p>",
       "answers": [
         {
           "comments": "",
           "comments_html": "",
           "text": "True",
           "weight": 100,
-          "id": 9962
+          "id": 5091
         },
         {
           "comments": "",
           "comments_html": "",
           "text": "False",
           "weight": 0,
-          "id": 9093
+          "id": 2717
         }
       ],
       "variables": null,
@@ -372,45 +376,45 @@
       "position": null,
       "question_name": "OOJS: Extends",
       "question_type": "multiple_choice_question",
-      "question_text": "<div>\n<div><span>What keyword would I use to create a class that is a child of another class?</span></div>\n</div>",
+      "question_text": "<p>What keyword would I use to define a class inherits from another class?</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/class-extensions-and-inheritance?module_item_id=143628\" target=\"_blank\">Class Extensions and Inheritance</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/class-extensions-and-inheritance?module_item_id=143628\">Class Extensions and Inheritance</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 5705,
+          "id": 2450,
           "text": "",
-          "html": "<pre>extends</pre>",
+          "html": "<div class=\"highlight\"><pre class=\"highlight plaintext\"><code>extends\n</code></pre></div>",
           "comments": "",
           "comments_html": "",
           "weight": 100.0
         },
         {
-          "id": 8415,
+          "id": 5525,
           "text": "",
-          "html": "<pre>static</pre>",
+          "html": "<div class=\"highlight\"><pre class=\"highlight plaintext\"><code>static\n</code></pre></div>",
           "comments": "",
           "comments_html": "",
           "weight": 0.0
         },
         {
-          "id": 5482,
+          "id": 6464,
           "text": "",
-          "html": "<pre>super</pre>",
+          "html": "<div class=\"highlight\"><pre class=\"highlight plaintext\"><code>super\n</code></pre></div>",
           "comments": "",
           "comments_html": "",
           "weight": 0.0
         },
         {
-          "id": 8388,
-          "text": "I don't know.",
-          "html": "",
+          "id": 7568,
+          "text": "",
+          "html": "<p>I don't know.</p>",
           "comments": "",
-          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
           "weight": 0.0
         }
       ],
@@ -429,45 +433,45 @@
       "position": null,
       "question_name": "OOJS Instance Methods",
       "question_type": "multiple_choice_question",
-      "question_text": "<div><span>How would I call the sayHello method on my new instance of a Dog?</span></div>\n<div>\n<pre><span>class Dog {</span><br><span>  constructor(name, age) {</span><br><span>    this.name = name;</span><br><span>    this.age = age;</span><br><span>  }<br><br></span>  sayHello() {<br>    console.log(`Woof, my name is ${this.name}`);<br><span>  }<br>}<br><br><code>let spinach = new Dog('Spinach', 4);</code><br></span></pre>\n</div>\n<p>&nbsp;</p>",
+      "question_text": "<p>How would I call the <code>sayHello</code> method on <code>spinach</code>?</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">class</span> <span class=\"nx\">Dog</span> <span class=\"p\">{</span>\n  <span class=\"kd\">constructor</span><span class=\"p\">(</span><span class=\"nx\">name</span><span class=\"p\">,</span> <span class=\"nx\">age</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n    <span class=\"k\">this</span><span class=\"p\">.</span><span class=\"nx\">name</span> <span class=\"o\">=</span> <span class=\"nx\">name</span><span class=\"p\">;</span>\n    <span class=\"k\">this</span><span class=\"p\">.</span><span class=\"nx\">age</span> <span class=\"o\">=</span> <span class=\"nx\">age</span><span class=\"p\">;</span>\n  <span class=\"p\">}</span>\n  <span class=\"nx\">sayHello</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n    <span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"s2\">`Woof, my name is </span><span class=\"p\">${</span><span class=\"k\">this</span><span class=\"p\">.</span><span class=\"nx\">name</span><span class=\"p\">}</span><span class=\"s2\">`</span><span class=\"p\">);</span>\n  <span class=\"p\">}</span>\n<span class=\"p\">}</span>\n<span class=\"kd\">let</span> <span class=\"nx\">spinach</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nx\">Dog</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">Spinach</span><span class=\"dl\">\"</span><span class=\"p\">,</span> <span class=\"mi\">4</span><span class=\"p\">);</span>\n</code></pre></div>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "<p>&nbsp;<strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/method-types?module_item_id=143625\" target=\"_blank\">Method Types</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/method-types?module_item_id=143625\">Method Types</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 6905,
+          "id": 5967,
           "text": "",
-          "html": "<pre>spinach.sayHello()</pre>",
+          "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">spinach</span><span class=\"p\">.</span><span class=\"nx\">sayHello</span><span class=\"p\">();</span>\n</code></pre></div>",
           "comments": "",
           "comments_html": "",
           "weight": 100.0
         },
         {
-          "id": 2144,
+          "id": 2038,
           "text": "",
-          "html": "<pre>Dog.sayHello(spinach)</pre>",
+          "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">Dog</span><span class=\"p\">.</span><span class=\"nx\">sayHello</span><span class=\"p\">(</span><span class=\"nx\">spinach</span><span class=\"p\">);</span>\n</code></pre></div>",
           "comments": "",
           "comments_html": "",
           "weight": 0.0
         },
         {
-          "id": 3431,
+          "id": 3396,
           "text": "",
-          "html": "<pre>sayHello(spinach)</pre>",
+          "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">sayHello</span><span class=\"p\">(</span><span class=\"nx\">spinach</span><span class=\"p\">);</span>\n</code></pre></div>",
           "comments": "",
           "comments_html": "",
           "weight": 0.0
         },
         {
-          "id": 1934,
-          "text": "I don't know.",
-          "html": "",
+          "id": 3615,
+          "text": "",
+          "html": "<p>I don't know.</p>",
           "comments": "",
-          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
           "weight": 0.0
         }
       ],
@@ -486,37 +490,37 @@
       "position": null,
       "question_name": "OOJS: Instance Methods",
       "question_type": "multiple_choice_question",
-      "question_text": "<div><span>How would I find the area of an instance of the Square class?</span></div>\n<pre><span>class Square {</span><br><span> constructor(sideLength) {</span><br><span>   this.sideLength = sideLength;</span><br><span> }</span><br><br><span> get area() {</span><br><span>   return this.sideLength * this.sideLength;</span><br><span> }</span><br><span>}<br><br><code>let square = new Square(5);</code><br></span></pre>\n<p>&nbsp;</p>",
+      "question_text": "<p>How would I find the area of the <code>square</code> variable?</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">class</span> <span class=\"nx\">Square</span> <span class=\"p\">{</span>\n  <span class=\"kd\">constructor</span><span class=\"p\">(</span><span class=\"nx\">sideLength</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n    <span class=\"k\">this</span><span class=\"p\">.</span><span class=\"nx\">sideLength</span> <span class=\"o\">=</span> <span class=\"nx\">sideLength</span><span class=\"p\">;</span>\n  <span class=\"p\">}</span>\n\n  <span class=\"kd\">get</span> <span class=\"nx\">area</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n    <span class=\"k\">return</span> <span class=\"k\">this</span><span class=\"p\">.</span><span class=\"nx\">sideLength</span> <span class=\"o\">*</span> <span class=\"k\">this</span><span class=\"p\">.</span><span class=\"nx\">sideLength</span><span class=\"p\">;</span>\n  <span class=\"p\">}</span>\n<span class=\"p\">}</span>\n\n<span class=\"kd\">let</span> <span class=\"nx\">square</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nx\">Square</span><span class=\"p\">(</span><span class=\"mi\">5</span><span class=\"p\">);</span>\n</code></pre></div>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "<p>&nbsp;<strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/method-types?module_item_id=143625\" target=\"_blank\">Method Types</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/method-types?module_item_id=143625\">Method Types</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 1881,
+          "id": 666,
           "text": "",
-          "html": "<pre>square.area</pre>",
+          "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">square</span><span class=\"p\">.</span><span class=\"nx\">area</span><span class=\"p\">;</span>\n</code></pre></div>",
           "comments": "",
           "comments_html": "",
           "weight": 100.0
         },
         {
-          "id": 3345,
+          "id": 9024,
           "text": "",
-          "html": "<pre>square.area()</pre>",
+          "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">square</span><span class=\"p\">.</span><span class=\"nx\">area</span><span class=\"p\">();</span>\n</code></pre></div>",
           "comments": "",
           "comments_html": "",
           "weight": 0.0
         },
         {
-          "id": 5049,
-          "text": "I don't know.",
-          "html": "",
+          "id": 3578,
+          "text": "",
+          "html": "<p>I don't know.</p>",
           "comments": "",
-          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
           "weight": 0.0
         }
       ],
@@ -535,28 +539,28 @@
       "position": null,
       "question_name": "OOJS: Set",
       "question_type": "true_false_question",
-      "question_text": "<div>\n<div><span>The set keyword allows us to write a method that interacts like a property being assigned a value.</span></div>\n</div>",
+      "question_text": "<p>The <code>set</code> keyword allows us to write a method that behaves like a property being\nassigned a value.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "<p>&nbsp;<strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/method-types?module_item_id=143625\" target=\"_blank\">Method Types</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/method-types?module_item_id=143625\">Method Types</a></li></ul><p></p>",
       "answers": [
         {
           "comments": "",
           "comments_html": "",
           "text": "True",
           "weight": 100,
-          "id": 6938
+          "id": 9104
         },
         {
           "comments": "",
           "comments_html": "",
           "text": "False",
           "weight": 0,
-          "id": 205
+          "id": 533
         }
       ],
       "variables": null,
@@ -574,28 +578,28 @@
       "position": null,
       "question_name": "OOJS: Static Methods",
       "question_type": "true_false_question",
-      "question_text": "<div>\n<div><span>Static methods are callable on instances of a class.</span></div>\n</div>",
+      "question_text": "<p>Static methods are callable on instances of a class.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "<p>&nbsp;<strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/method-types?module_item_id=143625\" target=\"_blank\">Method Types</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/method-types?module_item_id=143625\">Method Types</a></li></ul><p></p>",
       "answers": [
         {
           "comments": "",
           "comments_html": "",
           "text": "True",
           "weight": 0,
-          "id": 3768
+          "id": 9710
         },
         {
           "comments": "",
           "comments_html": "",
           "text": "False",
           "weight": 100,
-          "id": 7695
+          "id": 1700
         }
       ],
       "variables": null,
@@ -613,45 +617,45 @@
       "position": null,
       "question_name": "OOJS: Static Methods",
       "question_type": "multiple_choice_question",
-      "question_text": "<div>\n<div><span>What is the proper syntax for writing a static method?</span></div>\n</div>",
+      "question_text": "<p>What is the proper syntax for writing a static method?</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "<p>&nbsp;<strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/method-types?module_item_id=143625\" target=\"_blank\">Method Types</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/method-types?module_item_id=143625\">Method Types</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 2892,
+          "id": 5963,
           "text": "",
-          "html": "<div>\n<pre><span>class CommonMath {</span><br><span>  static triple(number) {<br></span><span>    return number * number * number;</span><br><span> }</span><br><span>}</span></pre>\n</div>",
+          "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">class</span> <span class=\"nx\">CommonMath</span> <span class=\"p\">{</span>\n  <span class=\"kd\">static</span> <span class=\"nx\">triple</span><span class=\"p\">(</span><span class=\"nx\">number</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n    <span class=\"k\">return</span> <span class=\"nx\">number</span> <span class=\"o\">*</span> <span class=\"nx\">number</span> <span class=\"o\">*</span> <span class=\"nx\">number</span><span class=\"p\">;</span>\n  <span class=\"p\">}</span>\n<span class=\"p\">}</span>\n</code></pre></div>",
           "comments": "",
           "comments_html": "",
           "weight": 100.0
         },
         {
-          "id": 4622,
+          "id": 5021,
           "text": "",
-          "html": "<div>\n<pre><span>class CommonMath {</span><br><span>  triple(number) {<br></span><span>    return number * number * number;</span><br><span>  }</span><br><span>}</span></pre>\n</div>",
+          "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">class</span> <span class=\"nx\">CommonMath</span> <span class=\"p\">{</span>\n  <span class=\"nx\">triple</span><span class=\"p\">(</span><span class=\"nx\">number</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n    <span class=\"k\">return</span> <span class=\"nx\">number</span> <span class=\"o\">*</span> <span class=\"nx\">number</span> <span class=\"o\">*</span> <span class=\"nx\">number</span><span class=\"p\">;</span>\n  <span class=\"p\">}</span>\n<span class=\"p\">}</span>\n</code></pre></div>",
           "comments": "",
           "comments_html": "",
           "weight": 0.0
         },
         {
-          "id": 2701,
+          "id": 2116,
           "text": "",
-          "html": "<div>\n<pre><span>class CommonMath {</span><br><span>  triple(number) {<br></span><span>    static return number * number * number;</span><br><span>  }</span><br><span>}</span></pre>\n</div>",
+          "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">class</span> <span class=\"nx\">CommonMath</span> <span class=\"p\">{</span>\n  <span class=\"nx\">triple</span><span class=\"p\">(</span><span class=\"nx\">number</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n    <span class=\"kd\">static</span> <span class=\"k\">return</span> <span class=\"nx\">number</span> <span class=\"o\">*</span> <span class=\"nx\">number</span> <span class=\"o\">*</span> <span class=\"nx\">number</span><span class=\"p\">;</span>\n  <span class=\"p\">}</span>\n<span class=\"p\">}</span>\n</code></pre></div>",
           "comments": "",
           "comments_html": "",
           "weight": 0.0
         },
         {
-          "id": 1141,
-          "text": "I don't know.",
-          "html": "",
+          "id": 5230,
+          "text": "",
+          "html": "<p>I don't know.</p>",
           "comments": "",
-          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
           "weight": 0.0
         }
       ],
@@ -670,45 +674,45 @@
       "position": null,
       "question_name": "OOJS: Static Methods",
       "question_type": "multiple_choice_question",
-      "question_text": "<p><span>What will calling <code>spinach.definition()</code> return?</span></p>\n<div>\n<pre><span>class Pet {</span><br><span>  constructor(name) {</span><br><span>    this.name = name;</span><br><span>    this._owner = null;</span><br><span>  }</span><br><br><span>  get owner() {</span><br><span>    return this._owner;</span><br><span>  }</span><br><br><span>  set owner(owner) {</span><br><span>    this._owner = owner;</span><br><span>  }</span><br><br><span>  static definition() {</span><br><span>    return `A pet is an animal kept primarily for a person's company.`;</span><br><span>  }</span><br><span>}</span><br><br><span>// Inherits from Pet</span><br><br><span>class Dog extends Pet {</span><br><br><span>  constructor(name, breed) {</span><br><span>    super(name);</span><br><span>    this.breed = breed;</span><br><span>  }</span><br><br><span>  static definition() {</span><br><span>    return (</span><br><span>      super.definition() + ' Dogs are one of the most common types of pets.'<br></span><span>    );</span><br><span>  }</span><br><span>}<br><br><code>let spinach = new Dog('Spinach', 'Shina Inu');</code></span></pre>\n</div>",
+      "question_text": "<p>Given the following class definitions:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">class</span> <span class=\"nx\">Pet</span> <span class=\"p\">{</span>\n  <span class=\"kd\">constructor</span><span class=\"p\">(</span><span class=\"nx\">name</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n    <span class=\"k\">this</span><span class=\"p\">.</span><span class=\"nx\">name</span> <span class=\"o\">=</span> <span class=\"nx\">name</span><span class=\"p\">;</span>\n    <span class=\"k\">this</span><span class=\"p\">.</span><span class=\"nx\">_owner</span> <span class=\"o\">=</span> <span class=\"kc\">null</span><span class=\"p\">;</span>\n  <span class=\"p\">}</span>\n\n  <span class=\"kd\">get</span> <span class=\"nx\">owner</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n    <span class=\"k\">return</span> <span class=\"k\">this</span><span class=\"p\">.</span><span class=\"nx\">_owner</span><span class=\"p\">;</span>\n  <span class=\"p\">}</span>\n\n  <span class=\"kd\">set</span> <span class=\"nx\">owner</span><span class=\"p\">(</span><span class=\"nx\">owner</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n    <span class=\"k\">this</span><span class=\"p\">.</span><span class=\"nx\">_owner</span> <span class=\"o\">=</span> <span class=\"nx\">owner</span><span class=\"p\">;</span>\n  <span class=\"p\">}</span>\n\n  <span class=\"kd\">static</span> <span class=\"nx\">definition</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n    <span class=\"k\">return</span> <span class=\"s2\">`A pet is an animal kept primarily for a person's company.`</span><span class=\"p\">;</span>\n  <span class=\"p\">}</span>\n<span class=\"p\">}</span>\n\n<span class=\"c1\">// Inherits from Pet</span>\n\n<span class=\"kd\">class</span> <span class=\"nx\">Dog</span> <span class=\"kd\">extends</span> <span class=\"nx\">Pet</span> <span class=\"p\">{</span>\n  <span class=\"kd\">constructor</span><span class=\"p\">(</span><span class=\"nx\">name</span><span class=\"p\">,</span> <span class=\"nx\">breed</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n    <span class=\"k\">super</span><span class=\"p\">(</span><span class=\"nx\">name</span><span class=\"p\">);</span>\n    <span class=\"k\">this</span><span class=\"p\">.</span><span class=\"nx\">breed</span> <span class=\"o\">=</span> <span class=\"nx\">breed</span><span class=\"p\">;</span>\n  <span class=\"p\">}</span>\n\n  <span class=\"kd\">static</span> <span class=\"nx\">definition</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n    <span class=\"k\">return</span> <span class=\"p\">(</span>\n      <span class=\"k\">super</span><span class=\"p\">.</span><span class=\"nx\">definition</span><span class=\"p\">()</span> <span class=\"o\">+</span> <span class=\"dl\">\"</span><span class=\"s2\"> Dogs are one of the most common types of pets.</span><span class=\"dl\">\"</span>\n    <span class=\"p\">);</span>\n  <span class=\"p\">}</span>\n<span class=\"p\">}</span>\n\n<span class=\"kd\">let</span> <span class=\"nx\">spinach</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nx\">Dog</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">Spinach</span><span class=\"dl\">\"</span><span class=\"p\">,</span> <span class=\"dl\">\"</span><span class=\"s2\">Shina Inu</span><span class=\"dl\">\"</span><span class=\"p\">);</span>\n</code></pre></div>\n<p>What will calling <code>spinach.definition()</code> return?</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "<p>&nbsp;<strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/method-types?module_item_id=143625\" target=\"_blank\">Method Types</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/method-types?module_item_id=143625\">Method Types</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 6512,
-          "text": "Uncaught TypeError",
-          "html": "",
+          "id": 4691,
+          "text": "",
+          "html": "<p>Uncaught TypeError</p>",
           "comments": "",
-          "comments_html": "",
+          "comments_html": "<p>Correct! Since <code>definition</code> is a static method, we cannot call it on a <code>Dog</code>\ninstance. We must call it on the <code>Dog</code> class.</p>",
           "weight": 100.0
         },
         {
-          "id": 2449,
-          "text": "Dogs are one of the most common types of pets.",
-          "html": "",
+          "id": 3417,
+          "text": "",
+          "html": "<p>Dogs are one of the most common types of pets.</p>",
           "comments": "",
-          "comments_html": "",
+          "comments_html": "<p>Since <code>definition</code> is a static method, we cannot call it on a <code>Dog</code> instance,\nlike <code>spinach</code>. We must call it on the <code>Dog</code> class.</p>",
           "weight": 0.0
         },
         {
-          "id": 9962,
-          "text": "A pet is an animal kept primarily for a person's company. Dogs are one of the most common types of pets. A pet is an animal kept primarily for a person's company.",
-          "html": "",
+          "id": 7747,
+          "text": "",
+          "html": "<p>A pet is an animal kept primarily for a person's company. Dogs are one of the\nmost common types of pets.</p>",
           "comments": "",
-          "comments_html": "",
+          "comments_html": "<p>Since <code>definition</code> is a static method, we cannot call it on a <code>Dog</code> instance,\nlike <code>spinach</code>. We must call it on the <code>Dog</code> class.</p>",
           "weight": 0.0
         },
         {
-          "id": 706,
-          "text": "I don't know.",
-          "html": "",
+          "id": 7975,
+          "text": "",
+          "html": "<p>I don't know.</p>",
           "comments": "",
-          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
           "weight": 0.0
         }
       ],
@@ -727,45 +731,45 @@
       "position": null,
       "question_name": "OOJS: Static Methods",
       "question_type": "multiple_choice_question",
-      "question_text": "<p><span>What will calling <code>Dog.definition()</code>&nbsp;return?</span></p>\n<div>\n<div>\n<pre><span>class Pet {</span><br><span>  constructor(name) {</span><br><span>    this.name = name;</span><br><span>    this._owner = null;</span><br><span>  }</span><br><br><span>  get owner() {</span><br><span>    return this._owner;</span><br><span>  }</span><br><br><span>  set owner(owner) {</span><br><span>    this._owner = owner;</span><br><span>  }</span><br><br><span>  static definition() {</span><br><span>    return `A pet is an animal kept primarily for a person's company.`;</span><br><span>  }</span><br><span>}</span><br><br><span>// Inherits from Pet</span><br><br><span>class Dog extends Pet {</span><br><br><span>  constructor(name, breed) {</span><br><span>    super(name);</span><br><span>    this.breed = breed;</span><br><span>  }</span><br><br><span>  static definition() {</span><br><span>    return (</span><br><span>      super.definition() + ' Dogs are one of the most common types of pets.'<br></span><span>    );</span><br><span>  }</span><br><span>}<br><br><code>let spinach = new Dog('Spinach', 'Shina Inu');</code><br></span></pre>\n</div>\n</div>",
+      "question_text": "<p>Given the following class definitions:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">class</span> <span class=\"nx\">Pet</span> <span class=\"p\">{</span>\n  <span class=\"kd\">constructor</span><span class=\"p\">(</span><span class=\"nx\">name</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n    <span class=\"k\">this</span><span class=\"p\">.</span><span class=\"nx\">name</span> <span class=\"o\">=</span> <span class=\"nx\">name</span><span class=\"p\">;</span>\n    <span class=\"k\">this</span><span class=\"p\">.</span><span class=\"nx\">_owner</span> <span class=\"o\">=</span> <span class=\"kc\">null</span><span class=\"p\">;</span>\n  <span class=\"p\">}</span>\n\n  <span class=\"kd\">get</span> <span class=\"nx\">owner</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n    <span class=\"k\">return</span> <span class=\"k\">this</span><span class=\"p\">.</span><span class=\"nx\">_owner</span><span class=\"p\">;</span>\n  <span class=\"p\">}</span>\n\n  <span class=\"kd\">set</span> <span class=\"nx\">owner</span><span class=\"p\">(</span><span class=\"nx\">owner</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n    <span class=\"k\">this</span><span class=\"p\">.</span><span class=\"nx\">_owner</span> <span class=\"o\">=</span> <span class=\"nx\">owner</span><span class=\"p\">;</span>\n  <span class=\"p\">}</span>\n\n  <span class=\"kd\">static</span> <span class=\"nx\">definition</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n    <span class=\"k\">return</span> <span class=\"s2\">`A pet is an animal kept primarily for a person's company.`</span><span class=\"p\">;</span>\n  <span class=\"p\">}</span>\n<span class=\"p\">}</span>\n\n<span class=\"c1\">// Inherits from Pet</span>\n\n<span class=\"kd\">class</span> <span class=\"nx\">Dog</span> <span class=\"kd\">extends</span> <span class=\"nx\">Pet</span> <span class=\"p\">{</span>\n  <span class=\"kd\">constructor</span><span class=\"p\">(</span><span class=\"nx\">name</span><span class=\"p\">,</span> <span class=\"nx\">breed</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n    <span class=\"k\">super</span><span class=\"p\">(</span><span class=\"nx\">name</span><span class=\"p\">);</span>\n    <span class=\"k\">this</span><span class=\"p\">.</span><span class=\"nx\">breed</span> <span class=\"o\">=</span> <span class=\"nx\">breed</span><span class=\"p\">;</span>\n  <span class=\"p\">}</span>\n\n  <span class=\"kd\">static</span> <span class=\"nx\">definition</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n    <span class=\"k\">return</span> <span class=\"p\">(</span>\n      <span class=\"k\">super</span><span class=\"p\">.</span><span class=\"nx\">definition</span><span class=\"p\">()</span> <span class=\"o\">+</span> <span class=\"dl\">\"</span><span class=\"s2\"> Dogs are one of the most common types of pets.</span><span class=\"dl\">\"</span>\n    <span class=\"p\">);</span>\n  <span class=\"p\">}</span>\n<span class=\"p\">}</span>\n<span class=\"kd\">let</span> <span class=\"nx\">spinach</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nx\">Dog</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">Spinach</span><span class=\"dl\">\"</span><span class=\"p\">,</span> <span class=\"dl\">\"</span><span class=\"s2\">Shina Inu</span><span class=\"dl\">\"</span><span class=\"p\">);</span>\n</code></pre></div>\n<p>What will calling <code>Dog.definition()</code> return?</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "<p>&nbsp;<strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/method-types?module_item_id=143625\" target=\"_blank\">Method Types</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/method-types?module_item_id=143625\">Method Types</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 2238,
+          "id": 4720,
           "text": "",
-          "html": "<p>A pet is an animal kept primarily for a person's company. Dogs are one of the most common types of pets.&nbsp;</p>",
+          "html": "<p>A pet is an animal kept primarily for a person's company. Dogs are one of the\nmost common types of pets.</p>",
           "comments": "",
           "comments_html": "",
           "weight": 100.0
         },
         {
-          "id": 6018,
-          "text": "Uncaught TypeError",
-          "html": "",
+          "id": 2938,
+          "text": "",
+          "html": "<p>Uncaught TypeError</p>",
           "comments": "",
           "comments_html": "",
           "weight": 0.0
         },
         {
-          "id": 6503,
-          "text": "Dogs are one of the most common types of pets.",
-          "html": "",
+          "id": 9866,
+          "text": "",
+          "html": "<p>Dogs are one of the most common types of pets.</p>",
           "comments": "",
           "comments_html": "",
           "weight": 0.0
         },
         {
-          "id": 7291,
-          "text": "I don't know.",
-          "html": "",
+          "id": 8315,
+          "text": "",
+          "html": "<p>I don't know.</p>",
           "comments": "",
-          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
           "weight": 0.0
         }
       ],

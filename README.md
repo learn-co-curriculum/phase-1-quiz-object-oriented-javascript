@@ -1,6 +1,6 @@
 ---
-id: 42557
-course_id: 6638
+id: 53432
+course_id: 7550
 repo: phase-1-quiz-object-oriented-javascript
 ---
 
